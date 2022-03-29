@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { Container } from './Component/Container';
+import { Content, Image, Tile, Title, Year, Tags, Tag, Description } from './Component/Tile';
+import poster from "./imiges/poster.png";
+import star from "./imiges/star.svg"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Tile >
+        <Image src={poster} alt="" />
+        <Content>
+          <Title> MULAN </Title>
+          <Year>2020</Year>
+          <Tags>
+            <Tag>Action</Tag>
+            <Tag>Adventure</Tag>
+            <Tag>Drama</Tag>
+            <Tags />
+            <Description>
+              A young Chinese maiden disguises herself as a male warrior in order to save her father.
+              Disguises herself as a male warrior in order to save her father.  A young Chinese maiden disguises herself as a male warrior in order to save her father.
+            </Description>
+          </Tags>
+        </Content>
+      </Tile>
+    </Container>
   );
 }
 
