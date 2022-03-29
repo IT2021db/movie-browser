@@ -1,5 +1,5 @@
 import { Container } from './Component/Container';
-import { Content, Image, Tile, Title, Year, Tags, Tag, Description } from './Component/Tile';
+import { Content, Image, Tile, Title, Year, Tags, Tag, Description, TagImage, TagRate, TagScore } from './Component/Tile';
 import poster from "./imiges/poster.png";
 import star from "./imiges/star.svg"
 
@@ -15,6 +15,12 @@ function App() {
             <Tag>Action</Tag>
             <Tag>Adventure</Tag>
             <Tag>Drama</Tag>
+          </Tags>
+          <Tags>
+            <TagImage src={star}></TagImage>
+            <TagRate> 7,8</TagRate>
+            <TagScore>/10</TagScore>
+            <TagScore>335 votes</TagScore>
             <Tags />
             <Description>
               A young Chinese maiden disguises herself as a male warrior in order to save her father.

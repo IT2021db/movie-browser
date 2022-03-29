@@ -18,13 +18,39 @@ export const Content = styled.div`
 
 `;
 
+export const TagImage = styled.img`
+    width: 24px;
+    height: 22.87px;
+    color: ${({ theme }) => theme.color.candlelight};
+    margin: 27.09px 0 -8px  8px ;
+`;
+
+export const TagRate = styled.li`
+    width: 32px;
+    height: 29px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.3;
+    align-items: center;
+    margin: 27.09px 8px;
+    
+`;
+
+export const TagScore = styled.li`
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 33px 8px;
+`;
+
 export const Title = styled.header`
     font-weight: 600;
     font-size: 36px;
+    margin-top: 8px;
 `;
 
 export const Year = styled.div`
     font-size: 22px;
+    margin: 24px 0;
 `;
 
 export const Tags = styled.ul`
@@ -44,6 +70,6 @@ export const Tag = styled.li`
 `;
 export const Description = styled.p`
     font-size: 20px;
-    margin: 24px 0 0 0;
+    margin:  0 8px ;
     line-height: 1.6;
 `;
