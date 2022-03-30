@@ -6,8 +6,12 @@ import {
 } from './Component/Tile';
 import poster from "./imiges/poster.png";
 import posterBig from "./imiges/poster-big.jpg";
+import poster0 from "./imiges/poster0.png";
+import poster1 from "./imiges/poster1.png";
+import poster2 from "./imiges/poster2.png";
 import star from "./imiges/star.svg"
 import { Component } from './Component';
+import { PersonTile, PersonImage, PersonName, PersonRole } from "./Component/PersonalTile"
 
 function App() {
   return (
@@ -48,6 +52,51 @@ function App() {
             </Tags>
           </Content>
         </Tile>
+      </Container>
+      <Container>
+        <Title>Cast</Title>
+        <Tags>
+          <PersonTile>
+            <PersonImage src={poster0} alt="" />
+            <PersonName>Liu Yifei</PersonName>
+            <PersonRole>Mulan</PersonRole>
+          </PersonTile>
+          <PersonTile>
+            <PersonImage src={poster1} alt="" />
+            <PersonName>Dopnnie Yen</PersonName>
+            <PersonRole>Komandor Tung</PersonRole>
+          </PersonTile>
+          <PersonTile>
+            <PersonImage src={poster2} alt="" />
+            <PersonName>Jason Scott Lee</PersonName>
+            <PersonRole>Böri Khan</PersonRole>
+          </PersonTile>
+          <PersonTile>
+            <PersonImage src={poster2} alt="" />
+            <PersonName>Jason Scott Lee</PersonName>
+            <PersonRole>Böri Khan</PersonRole>
+          </PersonTile>
+          <PersonTile>
+            <PersonImage src={poster2} alt="" />
+            <PersonName>Jason Scott Lee</PersonName>
+            <PersonRole>Böri Khan</PersonRole>
+          </PersonTile>
+          <PersonTile>
+            <PersonImage src={poster2} alt="" />
+            <PersonName>Jason Scott Lee</PersonName>
+            <PersonRole>Böri Khan</PersonRole>
+          </PersonTile>
+          <PersonTile>
+            <PersonImage src={poster2} alt="" />
+            <PersonName>Jason Scott Lee</PersonName>
+            <PersonRole>Böri Khan</PersonRole>
+          </PersonTile>
+          <PersonTile>
+            <PersonImage src={poster2} alt="" />
+            <PersonName>Jason Scott Lee</PersonName>
+            <PersonRole>Böri Khan</PersonRole>
+          </PersonTile>
+        </Tags>
       </Container>
     </Component>
   );
