@@ -18,29 +18,7 @@ export const Content = styled.div`
 
 `;
 
-export const TagImage = styled.img`
-    width: 24px;
-    height: 22.87px;
-    color: ${({ theme }) => theme.color.candlelight};
-    margin: 27.09px 0 -8px  8px ;
-`;
 
-export const TagRate = styled.li`
-    width: 32px;
-    height: 29px;
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 1.3;
-    align-items: center;
-    margin: 27.09px 8px;
-    
-`;
-
-export const TagScore = styled.li`
-    font-size: 14px;
-    line-height: 1.2;
-    margin: 33px 8px;
-`;
 
 export const Title = styled.header`
     font-weight: 600;
@@ -65,9 +43,46 @@ export const Tag = styled.li`
     padding: 8px 16px;
     background-color: ${({ theme }) => theme.color.mystic};
     font-size: 14px;
-    margin: 8px;
+    margin: 16px 8px 8px 8px;
     border-radius: 5px;
 `;
+
+export const TagImage = styled.img`
+    width: 24px;
+    height: 22.87px;
+    color: ${({ theme }) => theme.color.candlelight};
+    margin: 27.09px 0 -8px  8px ;
+`;
+
+export const TagRate = styled.li`
+    width: 32px;
+    height: 29px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.3;
+    align-items: center;
+    margin: 27.09px 8px;
+    `;
+
+export const TagScore = styled.li`
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 33px 8px;
+`;
+
+export const TagInfo = styled.span`
+    font-size: 18px;
+    line-height: 1.2;
+    color: ${({ theme }) => theme.color.stormGray};
+    margin: 0 0 8px 8px;
+`;
+
+export const TagInside = styled.li`
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0 0 8px 10px;
+`;
+
 export const Description = styled.p`
     font-size: 20px;
     margin:  0 8px ;

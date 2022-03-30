@@ -1,5 +1,8 @@
 import { Container } from './Component/Container';
-import { Content, Image, Tile, Title, Year, Tags, Tag, Description, TagImage, TagRate, TagScore } from './Component/Tile';
+import {
+  Content, Image, Tile, Title, Year, Tags, Tag,
+  Description, TagImage, TagRate, TagScore, TagInfo, TagInside
+} from './Component/Tile';
 import poster from "./imiges/poster.png";
 import star from "./imiges/star.svg"
 
@@ -11,6 +14,14 @@ function App() {
         <Content>
           <Title> MULAN </Title>
           <Year>2020</Year>
+          <Tags>
+            <TagInfo>Production:</TagInfo>
+            <TagInside>China, United State of America</TagInside>
+          </Tags>
+          <Tags>
+            <TagInfo>Release date:</TagInfo>
+            <TagInside>24.10.2020</TagInside>
+          </Tags>
           <Tags>
             <Tag>Action</Tag>
             <Tag>Adventure</Tag>
