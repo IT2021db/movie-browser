@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-export const Container =styled.div`
+export const Container = styled.div`
 max-width: 1368px;
-margin: auto;
-background-color: ${({theme})=> theme.color.white}
+margin: 64px auto;
+background-color: ${({ theme }) => theme.color.whisper}
 `;
 
