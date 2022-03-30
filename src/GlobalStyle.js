@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
     padding: 16px;
-    background-color: ${({ theme }) => theme.color.whisper};
+    background-color: ${({ theme }) => theme.color.gallery};
     font-family:'Poppins', sans-serif;
     color: ${({ theme }) => theme.color.black};
     }
