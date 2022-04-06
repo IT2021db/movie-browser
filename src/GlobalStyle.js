@@ -14,5 +14,6 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${({ theme }) => theme.color.gallery};
     font-family:'Poppins', sans-serif;
     color: ${({ theme }) => theme.color.black};
+    padding-bottom: 50px;
     }
 ;`
