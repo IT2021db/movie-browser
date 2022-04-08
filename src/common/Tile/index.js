@@ -7,39 +7,35 @@ export const Tile = styled.article`
     display: grid;
     grid-template-columns:auto 1fr;
     grid-gap: 40px;
+    margin: 64px 0;
 `;
 
-export const Image = styled.img`
+export const TileImage = styled.img`
     width: 312px;
     height: 464px;
 `;
 
-export const Content = styled.div`
+export const TileContent = styled.div``;
 
-`;
-
-
-
-export const Title = styled.header`
+export const TileTitle = styled.header`
     font-weight: 600;
     font-size: 36px;
-    margin-top: 8px;
-`;
+   `;
 
-export const Year = styled.div`
+export const TileYear = styled.div`
     font-size: 22px;
     margin: 24px 0;
 `;
 
-export const Tags = styled.ul`
+export const TileTags = styled.ul`
     list-style: none;
     display: flex;
     flex-wrap: wrap ;
     padding-left: 0;
-    margin: 0 -8px;
+    margin: 16px -8px;
 `;
 
-export const Tag = styled.li`
+export const TileTag = styled.li`
     padding: 8px 16px;
     background-color: ${({ theme }) => theme.color.mystic};
     font-size: 14px;
@@ -83,7 +79,7 @@ export const TagInside = styled.li`
     margin: 0 0 8px 10px;
 `;
 
-export const Description = styled.p`
+export const TileDescription = styled.p`
     font-size: 20px;
     margin:  0 8px ;
     line-height: 1.6;

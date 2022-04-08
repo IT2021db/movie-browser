@@ -1,15 +1,12 @@
 import styled from "styled-components";
 
-
-
-
 export const PersonTile = styled.article`
     width: 208px;
     height: 339px;
     background: ${({ theme }) => theme.color.white};
     padding:16px;
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     text-align: center;
     margin: 8px;
     box-shadow: 0px 4px 12px rgba(186, 199, 213, 0.5);

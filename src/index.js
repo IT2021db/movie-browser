@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { ThemeProvider } from 'styled-components';
-import { GlobalStyle } from './GlobalStyle';
-import App from './App';
+import { GlobalStyle } from './core/App/GlobalStyle';
+import App from './core/App/App';
 import reportWebVitals from './reportWebVitals';
-import { theme } from "./theme";
+import { theme } from "./core/App/theme";
 
 ReactDOM.render(
   <React.StrictMode>
