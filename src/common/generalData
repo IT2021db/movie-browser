@@ -1,0 +1,5 @@
+export const apiBase="https://api.themoviedb.org/3/";
+
+export const apiKey="5a59313a8c2952c7e8707cf61f724f36";
+
+// examle API request: https://api.themoviedb.org/3/movie/550?api_key=5a59313a8c2952c7e8707cf61f724f36
